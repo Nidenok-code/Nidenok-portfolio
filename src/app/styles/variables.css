@@ -1,0 +1,20 @@
+:root {
+  /* Colors */
+  --primary-black: #01080e;
+  --primary-blue27: #011627;
+  --primary-blue21: #011221;
+
+  --secondary-grey: #607b96;
+  --secondary-green: #3c9d93;
+  --secondary-blue: #4d5bce;
+  --secondary-white: #ffffff;
+
+  --accent-orenge: #fea55f;
+  --accent-green: #43d9ad;
+  --accent-pink: #e99287;
+  --accent-purple: #c98bdf;
+  --lines-blue: #1e2d3d;
+
+  --gradients-blue: #4d5bce;
+  --gradients-green: #43d9ad;
+}

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "FireCode";
+  font-weight: 300;
+  src: url("../../shared/fonts/FiraCode-Light.ttf");
+}
+
+@font-face {
+  font-family: "FireCode";
+  font-weight: 400;
+  src: url("../../shared/fonts/FiraCode-Regular.ttf");
+}
+
+@font-face {
+  font-family: "FireCode";
+  font-weight: 500;
+  src: url("../../shared/fonts/FiraCode-Medium.ttf");
+}
+
+@font-face {
+  font-family: "FireCode";
+  font-weight: 600;
+  src: url("../../shared/fonts/FiraCode-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "FireCode";
+  font-weight: 700;
+  src: url("../../shared/fonts/FiraCode-Bold.ttf");
+}
