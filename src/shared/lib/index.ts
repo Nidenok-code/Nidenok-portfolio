@@ -1,0 +1,1 @@
+export { linkText } from "./linkText";

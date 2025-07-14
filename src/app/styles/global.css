@@ -1,2 +1,35 @@
+@import "./rest.css";
 @import "./fonts.css";
-@import "tailwindcss";
+@import "./variables.css";
+
+body {
+  font-family: var(--font-family);
+}
+
+#root {
+  height: 100vh;
+  padding: 69px;
+
+  background-color: #010c15;
+}
+
+@media (max-width: 1024px) {
+  #root {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 15px;
+  }
+}
+
+.continer {
+  height: 100%;
+  border-radius: 8px;
+  border: var(--line);
+  overflow: hidden;
+
+  background-color: var(--color-midnight);
+}
