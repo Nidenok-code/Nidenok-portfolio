@@ -24,12 +24,3 @@ body {
     padding: 15px;
   }
 }
-
-.continer {
-  height: 100%;
-  border-radius: 8px;
-  border: var(--line);
-  overflow: hidden;
-
-  background-color: var(--color-midnight);
-}

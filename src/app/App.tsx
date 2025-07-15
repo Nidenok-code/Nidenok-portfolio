@@ -1,13 +1,12 @@
 import "app/styles/global.css";
 import { Header } from "widgets/header";
 import Providers from "./providers";
+import Routers from "./routers";
 
 function App() {
   return (
     <Providers>
-      <div className="continer">
-        <Header />
-      </div>
+      <Routers />
     </Providers>
   );
 }
