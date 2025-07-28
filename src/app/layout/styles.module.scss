@@ -4,6 +4,12 @@
   border: var(--line);
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
 
   background-color: var(--color-midnight);
+}
+
+main {
+  flex: 1 0 0;
 }
