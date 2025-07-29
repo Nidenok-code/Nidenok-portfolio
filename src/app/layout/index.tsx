@@ -1,9 +1,11 @@
 import styles from "./styles.module.scss";
 import { Header, Footer } from "widgets";
 
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 
 export default function MainLayout() {
+  const location = useLocation();
+
   return (
     <div className={styles.layout}>
       <Header />
@@ -11,8 +13,7 @@ export default function MainLayout() {
       <main className={styles.main}>
         <Outlet />
       </main>
-
-      <Footer />
+      <Footer isShow={location.pathname === "/"} />
     </div>
   );
 }

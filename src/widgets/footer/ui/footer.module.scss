@@ -2,11 +2,15 @@
   max-height: 50px;
   border-top: var(--line);
   display: flex;
+  position: relative;
+  bottom: 0;
 
   font-weight: 450;
   font-size: 16px;
 
   color: var(--color-slate-blue);
+
+  transition: 0.5s ease-in-out;
 
   .title {
     min-width: max-content;
@@ -41,6 +45,12 @@
 @media (max-width: 768px) {
   .footer {
     justify-content: space-between;
+
+    transition-delay: 0.5s;
+
+    &.isShow {
+      bottom: -50px;
+    }
 
     .social_links {
       width: max-content;
